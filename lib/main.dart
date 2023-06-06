@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:playgon/core/domain/extensions/logger/riverpod_logger.dart';
 import 'package:playgon/features/splash/presentation/screen/splash_screen.dart';
+import 'package:playgon/res/app_context_extension.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       // supportedLocales: ,
       // locale: ,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: context.resources.color.colorPrimary,
       ),
       home: const SplashScreen(),
     );
