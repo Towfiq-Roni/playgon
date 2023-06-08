@@ -5,6 +5,7 @@ abstract class BaseColors{
   //theme color
   MaterialColor get colorPrimary;
   MaterialColor get colorAccent;
+  Color get colorMain;
 
   //black
   Color get black100;

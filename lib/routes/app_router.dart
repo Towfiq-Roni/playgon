@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:playgon/features/homepage/presentation/screen/homepage_screen.dart';
 import 'package:playgon/features/splash/presentation/screen/splash_screen.dart';
 import 'package:playgon/routes/route_paths.dart';
 
@@ -26,9 +27,9 @@ class AppRouter {
       // case RoutePaths.snsScreen:
       //   widget = const SNSLinkingScreen();
       //   break;
-      // case RoutePaths.homepage:
-      //   widget = HomepageScreen();
-      //   break;
+      case RoutePaths.homepage:
+        widget = const HomepageScreen();
+        break;
       // case RoutePaths.save:
       //   widget = const SavedScreen();
       //   break;

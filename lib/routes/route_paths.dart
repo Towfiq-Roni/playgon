@@ -7,7 +7,7 @@ class RoutePaths {
   // static const String otp = '/otpScreen';
   // static const String profile = '/profileScreen';
   // static const String authWebView = '/authWebView';
-  // static const String homepage = '/homePage';
+  static const String homepage = '/homePage';
   // static const String save = '/save';
   // static const String progress = '/progress';
   // static const String map = '/mapScreen';

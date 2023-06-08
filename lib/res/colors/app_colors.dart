@@ -23,6 +23,9 @@ class AppColors implements BaseColors{
   @override
   MaterialColor get colorPrimary => MaterialColor(0xFFD4D2D3,_primary);
 
+  @override
+  Color get colorMain => const Color(0xFF65BC7B);
+
   //black
 
   @override
